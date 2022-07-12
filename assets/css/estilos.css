@@ -1,13 +1,38 @@
+body{
+    color: white;
+}
+
 .textologo{
     font-size: 15pt;
     font-weight: 400;
 }
 
-.nav-item{
-   color: aliceblue;
-  
+#quienessomos{
+    background-color: black;
+}
+
+.quienessomos{
+    background-color: black;
     
 }
-#carouselExampleControls{
-    height: 200px;
+
+
+.quienessomos p{
+    text-align: left;
+    
 }
+
+
+.quienessomos i{
+    background-color: rgb(0, 213, 255);
+    padding-left: 210px;
+    padding-right: 210px;
+    
+    
+}
+
+.carousel-inner{
+    height: 900px;
+    width: 100%;
+}
+
