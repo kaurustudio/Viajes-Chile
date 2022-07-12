@@ -9,19 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
-    <!-- CSS only -->
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Ricomida</title>
+    <title>Viajes Chile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./Assets/css/style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./assets/css/estilos.css">
 </head>
 <body>
      
-    <!-- NAV-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<!-- NAV-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
         <div class="container">
          
-            <a class="navbar-brand" href="#"><h1 id="logo">Ricomida</h1></a>
+            <a class="navbar-brand" href="#"> <img src="./assets/img/viajes.svg" alt="" width="5%"> <span class="textologo">Viajes Chile</span></a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,11 +36,11 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Recetas</a>
+                    <a class="nav-link" href="#">Quiénes Somos</a>
                </li>
 
                <li class="nav-item">
-                <a class="nav-link" href="#">Comidas</a>
+                <a class="nav-link" href="#">Destacados</a>
            </li>
            <li class="nav-item">
             <a class="nav-link" href="#">Contacto</a>
@@ -49,22 +50,65 @@
         </div>
     </nav>
     
-    <!--Header-->
+<!--Header - Carrusel-->
 
-    
+ <header>   
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="./assets/img/carousel3.jpg">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
 
+<!-- QUIÉNES SOMOS -->    
+
+<section id="quienessomos" class="text-light text-end py-5 mt-5 ">
+
+  <div class="container">
+      <div class="ms-auto col-12 col-md-7">
+
+          <p class="my-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsa deleniti tempore nostrum aliquam pariatur delectus culpa ipsam possimus quibusdam distinctio veniLorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsa deleniti tempore nostrum aliquam pariatur delectus culpa ipsam possimus quibusdam distinctio veniLorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsa deleniti tempore nostrum aliquam pariatur delectus culpa ipsam possimus quibusdam distinctio veniam numquam rem eaque, eos, perspiciatis maxime consectetur totam?
+          </p>
+
+      </div>
+  </div>
+</section>
+
+
+
+
+<!-- DESTACADOS -->
+
+
+
+<!-- CONTACTO -->  
        
             
-    <!-- FOOTER -->
+<!-- FOOTER -->
 
 
-    <div class="bg-dark text-center text-light">
-      <h1 class="mb-0 py-4 fs-3" id="logo">Ricomida</h1>
-    </div>
+
 
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="./Assets/js/script.js"></script>
+<script src="./assets/js/scripts.js"></script>
 </body>
 </html>
