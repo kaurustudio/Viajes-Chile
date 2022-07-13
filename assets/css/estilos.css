@@ -1,20 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
 body{
     color: white;
     background-color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .textologo{
     font-size: 15pt;
     font-weight: 400;
-}
-
-#quienessomos{
-    background-color: black;
-}
-
-.quienessomos{
-    background-color: black;
-    
 }
 
 
@@ -25,7 +24,7 @@ body{
 
 
 .quienessomos i{
-       padding-left: 210px;
+    padding-left: 210px;
     padding-right: 210px;
     
     
@@ -40,3 +39,69 @@ body{
     width: 100%;
     height: 100%;
 }
+
+/*RESPONSIVE*/
+
+@media (max-width:768px){
+
+   body p h1 h2 {
+    text-align: center;
+    text-align: center;
+   }
+   
+   
+.carousel-inner{
+    height: 200px;
+    width: 100%;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.carousel-control-prev{
+    display: none;
+}
+
+.carousel-control-next{
+    display: none;
+}
+
+i .iconos {
+ margin-right: 50px;
+}
+
+.quienessomos p{
+    text-align: center;
+}
+
+
+.quienessomos i{
+   justify-items: center;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+.tarjetas{
+ padding-left: 20px;
+ text-align: center;
+}
+
+.iconosfooter{
+justify-content: center;
+
+}
+
+
+}     
+
+    
+
+
+
+
+
+
+
