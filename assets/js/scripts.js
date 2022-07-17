@@ -37,7 +37,7 @@ $(document).ready (function(){
     });
 
 
-        /*Script para cambiar el movimiento smooths crool del menú*/
+        /*Script para cambiar el movimiento smooth scrooll del menú*/
 
         $(document).ready(function() {
 
