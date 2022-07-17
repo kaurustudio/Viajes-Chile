@@ -7,6 +7,9 @@
     border: 0;
 }
 
+html{
+    scroll-behavior: auto !important;
+}
 
 body{
     color: white;
@@ -43,6 +46,10 @@ body{
     height: 100%;
 }
 
+i{
+    color: white;
+}
+
 /*RESPONSIVE VERSIÓN MOVIL*/
 
 @media (max-width:768px){
@@ -57,6 +64,13 @@ body{
     height: 200px;
     width: 100%;
 }
+
+
+.quienessomos{
+    display: none;
+}
+
+
 
 .card img{
     width: 100%;
@@ -96,6 +110,9 @@ i .iconos {
 justify-content: center;
 
 }
+
+
+
 
 
 }     
